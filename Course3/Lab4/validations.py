@@ -20,6 +20,7 @@ def validate_user(username, minlen):
         return False
     if (username[0] == '.' or username[0] == '_'):
         return False
+    # comment
     return True
 
 print(validate_user("blue.kale", 3)) # True
